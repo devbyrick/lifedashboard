@@ -1,5 +1,7 @@
 <script>
-    import "../app.css";
+  import "../app.css";
 </script>
 
-<slot />
+<div class="h-screen w-screen flex items-center justify-center">
+    <slot/>
+</div>

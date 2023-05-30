@@ -3,7 +3,7 @@
     import PrimaryDrawer from "../../lib/components/layout/PrimaryDrawer.svelte";
 </script>
 
-<div class="w-full">
+<div class="w-full h-full">
     <Header></Header>
     <div class="flex">
         <div>

@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<div class="btn text-red-400">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</div>
+<script lang="ts">
+
+  import {Routes} from "../lib/constants/routes";
+
+  const isLoggedIn = false;
+
+</script>
+
+<div class="">
+    {#if !isLoggedIn}
+        <a href={Routes.Login}>
+            <button class="btn btn-primary">Log in</button>
+        </a>
+    {/if}
+</div>
