@@ -7,6 +7,10 @@ export const PrimaryDrawerEntries = [
     },
     {
         title: 'Dashboard',
-        path: Routes.Dashboard,
+        path: Routes.Dashboard.Home,
+    },
+    {
+        title: 'Trackers',
+        path: Routes.Dashboard.Trackers.Home,
     }
 ]

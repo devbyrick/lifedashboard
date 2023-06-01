@@ -1,6 +1,10 @@
 export const Routes = {
     Home: '/',
-    Dashboard: '/dashboard',
     Login: '/login',
-
+    Dashboard: {
+        Home: '/dashboard',
+        Trackers: {
+            Home: '/dashboard/trackers',
+        },
+    },
 }
