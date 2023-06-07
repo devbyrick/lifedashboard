@@ -8,6 +8,9 @@ export const Routes = {
         },
         Health: {
             Home: '/dashboard/health',
+            Weight: {
+                Home: '/dashboard/health/weight',
+            }
         }
     },
 }
