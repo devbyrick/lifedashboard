@@ -10,6 +10,9 @@ export const Routes = {
             Home: '/dashboard/health',
             Weight: {
                 Home: '/dashboard/health/weight',
+            },
+            Training: {
+                Home: '/dashboard/health/training',
             }
         }
     },

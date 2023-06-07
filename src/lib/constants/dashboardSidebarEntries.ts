@@ -16,5 +16,9 @@ export const DashboardSidebarEntries = [
     {
         title: 'Health',
         path: Routes.Dashboard.Health.Home,
+    },
+    {
+        title: 'Training',
+        path: Routes.Dashboard.Health.Training.Home,
     }
 ]
