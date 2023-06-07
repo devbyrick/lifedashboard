@@ -1,6 +1,6 @@
 import {Routes} from "./routes";
 
-export const PrimaryDrawerEntries = [
+export const DashboardSidebarEntries = [
     {
         title: 'Home',
         path: Routes.Home,
@@ -12,5 +12,9 @@ export const PrimaryDrawerEntries = [
     {
         title: 'Trackers',
         path: Routes.Dashboard.Trackers.Home,
+    },
+    {
+        title: 'Health',
+        path: Routes.Dashboard.Health.Home,
     }
 ]

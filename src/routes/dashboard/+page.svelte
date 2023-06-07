@@ -34,6 +34,6 @@
 
 <div class="flex items-center justify-between flex-wrap space-x-3">
 
-    <WeatherCard></WeatherCard>
-
+<!--    <WeatherCard></WeatherCard>-->
+<p>bananas</p>
 </div>

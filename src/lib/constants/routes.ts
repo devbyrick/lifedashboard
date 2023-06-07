@@ -6,5 +6,8 @@ export const Routes = {
         Trackers: {
             Home: '/dashboard/trackers',
         },
+        Health: {
+            Home: '/dashboard/health',
+        }
     },
 }

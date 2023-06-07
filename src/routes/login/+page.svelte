@@ -8,7 +8,7 @@
     }
 
     function handleSubmit() {
-      goto(Routes.Dashboard);
+      goto(Routes.Dashboard.Home);
     }
 
 </script>
