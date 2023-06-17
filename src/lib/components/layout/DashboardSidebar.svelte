@@ -10,7 +10,6 @@
 
 <div class="w-72 h-full p-4 backdrop-blur-3xl bg-white/30">
     <span class="divider -mb-2"></span>
-    {$page}
     <div class="">
         <ul class="menu w-full rounded-box">
             {#each drawerEntries as entry}
