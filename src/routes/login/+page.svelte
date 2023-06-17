@@ -4,11 +4,16 @@
     import {Routes} from "../../lib/constants/routes";
 
     function handleCancel() {
-      goto(Routes.Home);
+        goto(Routes.Home);
     }
 
     function handleSubmit() {
-      goto(Routes.Dashboard.Home);
+        goto(Routes.Dashboard.Home);
+    }
+
+    function handleGoogleLogin() {
+        console.log('google login');
+
     }
 
 </script>
@@ -24,6 +29,9 @@
         <div class="w-full pt-4">
             <input type="password" placeholder="Password" class="input w-full"/>
         </div>
+    </div>
+    <div class="mb-3 flex justify-center">
+        <button class="btn btn-secondary" on:click={handleGoogleLogin}>Google</button>
     </div>
     <div class="card-actions justify-end">
         <button class="btn" on:click={handleCancel}>Cancel</button>
