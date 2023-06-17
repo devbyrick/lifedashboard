@@ -6,7 +6,7 @@
 
 </script>
 
-<div class="w-72 h-full p-4 bg-slate-300">
+<div class="w-72 h-full p-4 backdrop-blur-3xl bg-white/30">
     <span class="divider -mb-2"></span>
     <div class="">
         <ul class="menu w-full rounded-box">

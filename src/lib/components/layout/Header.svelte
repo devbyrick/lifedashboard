@@ -3,7 +3,7 @@ import {Routes} from "../../constants/routes";
 import IconBell from "../icons/IconBell.svelte";
 </script>
 
-<div class="navbar bg-neutral text-neutral-content justify-between">
+<div class="navbar backdrop-blur-3xl bg-black/30 text-neutral-content justify-between">
     <a href={Routes.Dashboard.Home} class="btn btn-ghost normal-case text-xl">Dashboard</a>
     <div class="pr-5">
         <div class="indicator">

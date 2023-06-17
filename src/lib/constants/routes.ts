@@ -14,6 +14,9 @@ export const Routes = {
             Training: {
                 Home: '/dashboard/health/training',
             }
+        },
+        Weather: {
+            Home: '/dashboard/weather',
         }
     },
 }

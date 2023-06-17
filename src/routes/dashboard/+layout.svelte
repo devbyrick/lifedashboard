@@ -9,7 +9,7 @@
         <div class="h-full">
             <DashboardSidebar></DashboardSidebar>
         </div>
-        <div class="p-3 w-full">
+        <div class="p-3 w-full ">
             <slot/>
         </div>
     </div>
