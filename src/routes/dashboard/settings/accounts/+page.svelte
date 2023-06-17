@@ -3,5 +3,5 @@
 </script>
 
 <div class="">
-    Accounts
+    page content accounts
 </div>

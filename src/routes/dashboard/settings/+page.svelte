@@ -3,5 +3,5 @@
 </script>
 
 <div class="">
-    Settings
+    page content settings
 </div>
