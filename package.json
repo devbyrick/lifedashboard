@@ -37,6 +37,7 @@
   },
   "type": "module",
   "dependencies": {
+    "dotenv": "^16.3.0",
     "svelte-google-auth": "^0.7.2"
   }
 }

@@ -2,10 +2,11 @@
 
   import {Routes} from "../lib/constants/routes";
 
-  const isLoggedIn = false;
   import { invalidateAll } from '$app/navigation';
   import { signIn, signOut, initialize } from 'svelte-google-auth/client';
   import type { PageData } from './$types.js';
+
+  const isLoggedIn = false;
 
   export let data: PageData;
   initialize(data, invalidateAll);
