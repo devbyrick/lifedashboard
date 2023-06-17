@@ -17,6 +17,12 @@ export const Routes = {
         },
         Weather: {
             Home: '/dashboard/weather',
+        },
+        Settings: {
+            Home: '/dashboard/settings',
+            Accounts: {
+                Home: '/dashboard/settings/accounts',
+            }
         }
     },
 }

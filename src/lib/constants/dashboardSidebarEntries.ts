@@ -24,5 +24,15 @@ export const DashboardSidebarEntries = [
     {
         title: 'Weather',
         path: Routes.Dashboard.Weather.Home,
+    },
+    {
+        title: 'Settings',
+        path: Routes.Dashboard.Settings.Home,
+        children: [
+            {
+                title: 'Accounts',
+                path: Routes.Dashboard.Settings.Accounts.Home,
+            }
+        ]
     }
 ]
