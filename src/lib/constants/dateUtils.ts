@@ -8,6 +8,10 @@ export const WeekDays = [
     'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'
 ];
 
+export function getWeekDayName(weekDayIndex: number, short = false): string {
+    return short ? WeekDays[weekDayIndex].substr(0, 3) : WeekDays[weekDayIndex];
+}
+
 export function getMonthName(monthIndex: number, short = false): string {
     return short ? Months[monthIndex].substr(0, 3) : Months[monthIndex];
 }
