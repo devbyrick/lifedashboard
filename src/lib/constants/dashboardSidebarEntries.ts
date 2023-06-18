@@ -34,5 +34,9 @@ export const DashboardSidebarEntries = [
                 path: Routes.Dashboard.Settings.Accounts.Home,
             }
         ]
+    },
+    {
+        title: 'Calendar',
+        path: Routes.Dashboard.Calendar.Home,
     }
 ]

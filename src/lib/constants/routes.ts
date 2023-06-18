@@ -23,6 +23,9 @@ export const Routes = {
             Accounts: {
                 Home: '/dashboard/settings/accounts',
             }
+        },
+        Calendar: {
+            Home: '/dashboard/calendar',
         }
     },
 }
